@@ -1,4 +1,4 @@
-# e-volt
+# e-vote
 
 # MultiElectionVoting Smart Contract
 
@@ -68,8 +68,8 @@ The **MultiElectionVoting** smart contract is designed to manage multiple electi
 - Ether.js
 - Onchain Kit
 
-## contract was deployed to  Base
-Here is the contract address **0x170Bbd5A102B995517B133aa6b9275d103B9a120**
+## contract was deployed to  Mantle Sepolia Testnet
+Here is the contract address **0x33d0D9489a91FD1fe6988F7e55a3Fc389872BF6e**
 
 ### Steps to Contribute
 
@@ -98,7 +98,7 @@ Here is the contract address **0x170Bbd5A102B995517B133aa6b9275d103B9a120**
 
 6. **Deploy the Contract**: Deploy the contract to your desired Ethereum network (e.g., Mainnet, Ropsten, etc.).
    ```bash
-   npx hardhat run ignition/modules/MultiElectionVoting.ts --network base-sepolia
+   npx hardhat run ignition/modules/MultiElectionVoting.ts --network mantle-sepolia
    ```
 
 7. **Submit a Pull Request**: After making changes, push the changes to your forked repository and create a pull request.
@@ -114,5 +114,4 @@ Here is the contract address **0x170Bbd5A102B995517B133aa6b9275d103B9a120**
 ### Issues
 If you encounter any bugs or issues, please open an issue in the repository with detailed information on how to reproduce the problem.
 
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+

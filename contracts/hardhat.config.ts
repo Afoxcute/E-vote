@@ -14,26 +14,26 @@ const config: HardhatUserConfig = {
     //   accounts: [process.env.ACCOUNT_PRIVATE_KEY!],
     //   gasPrice: 1000000000,
     // },
-    'base-sepolia': {
-      url: 'https://sepolia.base.org',
+    'mantle-sepolia': {
+      url: 'https://rpc.sepolia.mantle.xyz',
       accounts: [process.env.PRIVATE_KEY!],
       gasPrice: 1000000000,
     },
   },
-  etherscan: {
-    apiKey:
-      process.env.BASESCAN_API_KEY || "Z597QN9XS29338DPDQIAHT83A42M3933P5",
-    customChains: [
-      {
-        network: "base-sepolia",
-        chainId: 84532,
-        urls: {
-          apiURL: "https://api-sepolia.basescan.org/api",
-          browserURL: "https://sepolia.basescan.org",
-        },
-      },
-    ],
-  },
+  // etherscan: {
+  //   apiKey:
+  //     process.env.BASESCAN_API_KEY || "Z597QN9XS29338DPDQIAHT83A42M3933P5",
+  //   customChains: [
+  //     {
+  //       network: "base-sepolia",
+  //       chainId: 84532,
+  //       urls: {
+  //         apiURL: "https://api-sepolia.basescan.org/api",
+  //         browserURL: "https://sepolia.basescan.org",
+  //       },
+  //     },
+  //   ],
+  // },
   sourcify: {
     enabled: true,
   },

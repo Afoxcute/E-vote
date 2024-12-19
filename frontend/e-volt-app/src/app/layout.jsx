@@ -14,7 +14,7 @@ import { GlobalStateProvider } from "@/context/GlobalStateContext";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-	title: "E-vot",
+	title: "E-vote",
 	description: "A decentralized voting platform",
 };
 

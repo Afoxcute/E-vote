@@ -42,7 +42,7 @@ export default function HOME() {
         </div>
         <div className="py-10 px-20 mt-10">
             <div>
-                <p className="text-[32px] font-medium form-item">Welcome To E-vot</p>
+                <p className="text-[32px] font-medium form-item">Welcome To E-vote</p>
                 <p className=" form-item">Voter to make your voice heard</p>
             </div>
             <div className="flex flex-col sm:flex-row flex-wrap justify-between items-center border rounded-lg p-10 gap-14 mt-10 form-item">
